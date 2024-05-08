@@ -84,7 +84,7 @@ START: Theme Default CSS
   --tj-color-heading-primary: #323c45;
   --tj-color-text-body: #717171;
   --tj-color-theme-primary: #f68620;
-  --tj-color-secondary: #166088;
+  --tj-color-secondary: #175D89;
   --tj-color-theme-secondary: #323c45;
   --tj-color-theme-bg: #fafafc;
   --tj-color-grey-1: #bdc5ca;
@@ -5901,7 +5901,7 @@ START: Theme Process CSS
   height: 100%;
   top: 0;
   left: 0;
-  background: var(--tj-color-theme-secondary);
+  background: #042f4b;
   z-index: -1;
 }
 .tj-process-section-two .tj-sec-heading-three {
