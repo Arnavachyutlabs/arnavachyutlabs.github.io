@@ -12247,4 +12247,7 @@ START: Theme Breadcrumb CSS
 .btn:focus-visible{
   color: white;
 }
+.form-box-three .input-form input{
+  padding: 13px 20px 13px 13px !important;
+}
 /* !END: Breadcrumb CSS *//*# sourceMappingURL=main.css.map */
