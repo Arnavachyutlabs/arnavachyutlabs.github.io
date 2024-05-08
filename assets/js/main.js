@@ -497,10 +497,6 @@ var blogswipe = new Swiper(".blogswiper", {
    spaceBetween:30,
    loop: true,
    speed:1000,
-   pagination: {
-      el: ".swiper-pagination",
-      clickable: true
-    },
    autoplay:{
       delay:4000,
       disableOnInteraction: false,
