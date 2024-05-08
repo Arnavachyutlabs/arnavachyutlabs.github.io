@@ -381,7 +381,7 @@
    // Brand Slider js
    var brand = new Swiper(".tj-brand-slider", {
       slidesPerView: 4,
-      spaceBetween: 90,
+      spaceBetween: 30,
       loop: true,
       speed: 1000,
       autoplay: {

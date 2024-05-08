@@ -12227,7 +12227,7 @@ START: Theme Breadcrumb CSS
 }
 .brand-item {
   background: white;
-  border-radius: 20px;
+  border-radius: 10px;
   overflow: hidden;
 }
 .brand-item img {
