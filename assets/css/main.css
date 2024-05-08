@@ -11224,7 +11224,7 @@ START: Theme Contact CSS
 START: Theme Brand CSS
 ----------------------------------------*/
 .tj-brand-section {
-  background: var(--tj-color-theme-secondary);
+  background: #042f4b;
   padding: 60px 0;
   position: relative;
   z-index: 2;
@@ -11799,7 +11799,6 @@ START: Theme Footer CSS
 }
 .widget_nav_menu .footer-menu ul li a:hover {
   color: var(--tj-color-theme-primary);
-  padding-left: 20px;
 }
 .widget_nav_menu .footer-menu ul li a:hover::before {
   opacity: 1;
