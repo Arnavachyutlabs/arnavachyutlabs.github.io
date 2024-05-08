@@ -12241,5 +12241,11 @@ START: Theme Breadcrumb CSS
 .w-70{
   width: 70px;
 }
-
+.btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active, .btn:focus{
+  color:white !important;
+  background-color: var(--tj-color-secondary);
+}
+.btn:focus-visible{
+  color: white;
+}
 /* !END: Breadcrumb CSS *//*# sourceMappingURL=main.css.map */
