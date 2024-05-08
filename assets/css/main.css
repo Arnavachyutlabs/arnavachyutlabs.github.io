@@ -468,7 +468,7 @@ img {
   -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
   z-index: 1;
-  font-size: 17px;
+  font-size: 18px;
   color: var(--tj-color-common-white);
   font-weight: var(--tj-fw-medium);
   padding: 19px 20px 19px 30px;
@@ -3984,7 +3984,7 @@ START: Theme Hero CSS
   margin-top: 30px;
 }
 .hero-content-two .tj-hero-button .tj-primary-btn {
-  font-size: 15px;
+  font-size: 18px;
   padding: 13px 25px;
   border-radius: 5px;
 }
@@ -4303,7 +4303,7 @@ START: Theme About CSS
   margin-top: 40px;
 }
 .about-content-three .about-button .tj-primary-btn {
-  font-size: 15px;
+  font-size: 18px;
   padding: 13px 25px;
   border-radius: 5px;
 }
