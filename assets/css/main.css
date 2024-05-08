@@ -84,6 +84,7 @@ START: Theme Default CSS
   --tj-color-heading-primary: #323c45;
   --tj-color-text-body: #717171;
   --tj-color-theme-primary: #f68620;
+  --tj-color-secondary: #166088;
   --tj-color-theme-secondary: #323c45;
   --tj-color-theme-bg: #fafafc;
   --tj-color-grey-1: #bdc5ca;
@@ -490,7 +491,7 @@ img {
   z-index: -1;
 }
 .tj-primary-btn.btn {
-  background: var(--tj-color-theme-secondary);
+  background: var(--tj-color-secondary);
 }
 .tj-primary-btn.btn:before, .tj-primary-btn.btn:after {
   background: var(--tj-color-theme-primary);
@@ -5781,7 +5782,7 @@ START: Theme Service CSS
 
 .service-item-four {
   border-radius: 20px;
-  border: 1px solid var(--tj-color-border-4);
+  border: 1px solid #ddd;
   margin-bottom: 30px;
   padding: 30px 30px;
   -webkit-transition: all 0.3s ease-in-out 0s;
@@ -5845,7 +5846,7 @@ START: Theme Service CSS
   border-radius: 12px;
 }
 .service-item-four:hover {
-  border-color: var(--tj-color-theme-primary);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .service-item-four {
@@ -9574,8 +9575,9 @@ START: Theme Choose CSS
 .tj-choose-us-item-two {
   margin-bottom: 30px;
   padding: 20px 30px 25px;
-  border: 1px solid var(--tj-color-border-4);
+  border: 1px solid transparent;
   border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -12142,25 +12144,25 @@ START: Theme Breadcrumb CSS
 }
 .process-steps{
   padding:20px 50px;
-  border: 1px solid var(--tj-color-border-4);
   border-radius: 10px;
   position: relative;
 }
 
 .steps-number{
   position: absolute;
-  top:3%;
-  right: 8%;
+  top: -8%;
+  right: 4%;
 }
 .process-steps .steps-icon i{
   font-size: 70px;
 }
 
 .steps-number span{
-  font-size: 50px;
+  font-size: 100px;
     font-family: var(--tj-ff-heading);
     font-weight: var(--tj-fw-bold);
-    color: rgba(113, 113, 113, 0.2);
+    color: var(--tj-color-secondary);
+    opacity: 0.3;
 }
 .testimonials-content-box{
   position: relative;
