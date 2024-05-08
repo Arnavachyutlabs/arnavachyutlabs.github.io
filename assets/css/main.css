@@ -12152,6 +12152,7 @@ START: Theme Breadcrumb CSS
     background-repeat: no-repeat;
     padding: 55px 60px;
     margin-bottom: 45px;
+    border-radius: 30px;
 }
 .testimonials-content-box:before{
   position: absolute;
@@ -12198,10 +12199,9 @@ START: Theme Breadcrumb CSS
   padding:10px;
 }
 .testimonials-content-box .icon-quote {
-  background-color: var(--tj-color-theme-primary);
   background-repeat: no-repeat;
   background-position: center;
-  color: white;
+  color: var(--tj-color-theme-primary);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12226,7 +12226,20 @@ START: Theme Breadcrumb CSS
   font-size:24px;
   padding:5px 5px;
 }
+.brand-item {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.brand-item img {
+  padding: 10px 35px;
+}
 
-
+.h-70{
+  height:70px;
+}
+.w-70{
+  width: 70px;
+}
 
 /* !END: Breadcrumb CSS *//*# sourceMappingURL=main.css.map */
