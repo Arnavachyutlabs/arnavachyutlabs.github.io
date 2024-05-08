@@ -467,11 +467,11 @@
       initialSlide: 0,
       effect: "flip", 
       autoplay: {
-         delay: 2500,
+         delay: 4500,
          disableOnInteraction: false
        },
       autoplaySpeed: 0, 
-      speed: 1000, 
+      speed: 2000, 
       cssEase: 'linear',
       adaptiveHeight: true,
   });

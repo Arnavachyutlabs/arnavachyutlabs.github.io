@@ -9245,13 +9245,14 @@ START: Theme Form CSS
   z-index: 2;
   border-radius: 10px;
   background: rgb(255, 255, 255);
-  padding: 40px;
+  padding: 20px 40px;
   max-width: 425px;
   width: 100%;
   margin-left: auto;
 }
 .form-box-two .contact-content {
   margin-bottom: 30px;
+  text-align: center;
 }
 .form-box-two .contact-content .title {
   color: black;
@@ -12239,5 +12240,11 @@ START: Theme Breadcrumb CSS
   -webkit-transition: all 100ms ease;
   transition: all 100ms ease;
   width: 72px;
+}
+
+.offer-price .tj-primary-btn{
+  border-radius: 5px;
+  font-size:24px;
+  padding:5px 5px;
 }
 /* !END: Breadcrumb CSS *//*# sourceMappingURL=main.css.map */
