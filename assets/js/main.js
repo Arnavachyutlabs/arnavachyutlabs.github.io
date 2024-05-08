@@ -385,7 +385,7 @@
       loop: true,
       speed: 1000,
       autoplay: {
-         delay: 1500,
+         delay: 1000,
          disableOnInteraction: false
        },
       breakpoints: {
@@ -489,6 +489,45 @@
       delay: 2500,
       disableOnInteraction: false
     },
+});
+
+//blog-slider
+var blogswipe = new Swiper(".blogswiper", {
+   slidesPerView: 3,
+   spaceBetween:30,
+   loop: true,
+   speed:1000,
+   pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    },
+   autoplay:{
+      delay:4000,
+      disableOnInteraction: false,
+   },
+   breakpoints: {
+      320: {
+         slidesPerView: 1,
+         spaceBetween: 30,
+      },
+      576: {
+         slidesPerView: 1,
+         spaceBetween: 50,
+      },
+      640: {
+         slidesPerView: 2,
+      },
+      768: {
+         slidesPerView: 2,
+         spaceBetween: 50,
+      },
+      992: {
+         slidesPerView: 3,
+      },
+      1024: {
+         slidesPerView: 3,
+      },
+   },
 });
    // ScrollTop js
    var solarScrollTop = document.querySelector(".solar-scroll-top");
