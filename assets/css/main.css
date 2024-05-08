@@ -11815,22 +11815,6 @@ START: Theme Footer CSS
   position: relative;
   padding-left: 0;
 }
-.widget_nav_menu .footer-menu ul li a::before {
-  position: absolute;
-  content: "";
-  width: 10px;
-  height: 2px;
-  left: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-  background: var(--tj-color-theme-primary);
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
 .widget_nav_menu .footer-menu ul li a:hover {
   color: var(--tj-color-theme-primary);
   padding-left: 20px;
@@ -11858,7 +11842,7 @@ START: Theme Footer CSS
   position: relative;
   padding-left: 45px;
   margin-bottom: 25px;
-  line-height: 2;
+  line-height: 1.5;
 }
 .footer-contact ul li a {
   color: var(--tj-color-common-white);
