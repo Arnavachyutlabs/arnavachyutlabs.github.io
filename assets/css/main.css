@@ -1594,7 +1594,6 @@ START: Theme Canvas CSS
 .tj-offcanvas-area .tj-offcanvas-header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   padding-bottom: 25px;
-  margin-bottom: 45px;
 }
 .tj-offcanvas-area .tj-search-box {
   position: relative;
@@ -4056,11 +4055,11 @@ START: Theme Hero CSS
     font-size: 17px;
   }
   .hero-content-two .tj-sec-heading .sec-title {
-    font-size: 32px;
+    font-size: 50px;
     line-height: 1.2;
   }
   .hero-content-two .tj-sec-heading .sec-title span {
-    font-size: 30px;
+    font-size: 50px;
     display: block;
   }
   .hero-content-two .tj-sec-heading .desc p {
