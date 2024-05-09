@@ -465,16 +465,12 @@
    //custom banner slider
    var swiper = new Swiper(".mySwiper", {
       loop: true,
-      infinite: true,
-      initialSlide: 0,
-      effect: "fade", 
+      effect: "flip",
       autoplay: {
          delay: 4500,
          disableOnInteraction: false
        },
-      autoplaySpeed: 0, 
-      speed: 2000,
-      adaptiveHeight: true,
+       speed:2000,
   });
 
   // Testimonials-cstm-slider
