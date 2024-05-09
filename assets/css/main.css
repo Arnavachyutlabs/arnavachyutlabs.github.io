@@ -11489,8 +11489,8 @@ START: Theme Footer CSS
 }
 .footer-section-shape .secton-group-two .shape-one {
   position: absolute;
-  right: 85px;
-  bottom: 0;
+  right: -30px;
+  bottom: 20;
   opacity: 0.1;
 }
 .footer-section-shape .secton-group-two .shape-one .image-2 {
