@@ -467,7 +467,7 @@
       loop: true,
       infinite: true,
       initialSlide: 0,
-      effect: "flip", 
+      effect: "fade", 
       autoplay: {
          delay: 4500,
          disableOnInteraction: false
