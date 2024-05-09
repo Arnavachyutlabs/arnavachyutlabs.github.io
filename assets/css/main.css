@@ -9575,9 +9575,8 @@ START: Theme Choose CSS
 .tj-choose-us-item-two {
   margin-bottom: 30px;
   padding: 20px 30px 25px;
-  border: 1px solid transparent;
+  border: 1px solid #f1f1f1;
   border-radius: 15px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -9641,7 +9640,7 @@ START: Theme Choose CSS
   color: var(--tj-color-theme-primary);
 }
 .tj-choose-us-item-two:hover {
-  border-color: var(--tj-color-theme-primary);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 /* !END: Theme Choose CSS */
@@ -12233,12 +12232,23 @@ START: Theme Breadcrumb CSS
 .brand-item img {
   padding: 10px 35px;
 }
-
+.h-60{
+  height:60px !important;
+}
+.w-60{
+  width: 60px;
+}
 .h-70{
-  height:70px;
+  height:70px !important;
 }
 .w-70{
   width: 70px;
+}
+.h-100px{
+  height:100px;
+}
+.w-100px{
+  width: 100px;
 }
 .btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active, .btn:focus{
   color:white !important;
@@ -12250,5 +12260,49 @@ START: Theme Breadcrumb CSS
 .form-box-three .input-form input{
   padding: 13px 20px 13px 13px !important;
 }
+.banner-text-main span{
+  background-color: #509cc8;
+  background-image: linear-gradient(90deg, #509cc8 0%, #175d89 44%, #f0830b 100%);  
+width:fit-content;
+margin-left: auto;
+margin-right: auto;
+padding: 2px 5px;
+border-radius: 5px;
+margin-bottom: 30px !important;
+}
+.banner-left h4{
+  font-size: 11rem;
+  background: -webkit-linear-gradient(#fa6b29, #fb7b51);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-right h4{
+  font-size: 4rem;
+  color:white;
+}
+.wcu{
+  position: relative;
+  overflow:hidden;
+}
+.wcu:before{
+  content:"";
+  position: absolute;
+  height:20%;
+  width: 20%;
+  background-color: var(--tj-color-theme-primary);
+  top:0;
+  right:0;
+  border-bottom-left-radius: 100%;
+  opacity: 0.5;
+}
+.wcu:hover:before{
+  opacity:1;
+}
+.banner-icons{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 /* !END: Breadcrumb CSS *//*# sourceMappingURL=main.css.map */

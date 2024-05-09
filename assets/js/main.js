@@ -465,12 +465,13 @@
    //custom banner slider
    var swiper = new Swiper(".mySwiper", {
       loop: true,
-      effect: "flip",
+      effect: "slide",
+      spaceBetween: 20,
       autoplay: {
          delay: 4500,
          disableOnInteraction: false
        },
-       speed:2000,
+      speed: 2000,
   });
 
   // Testimonials-cstm-slider
