@@ -473,8 +473,7 @@
          disableOnInteraction: false
        },
       autoplaySpeed: 0, 
-      speed: 2000, 
-      cssEase: 'linear',
+      speed: 2000,
       adaptiveHeight: true,
   });
 
