@@ -12378,6 +12378,9 @@ margin-bottom: 30px;
   .banner-text-main span{
     margin-bottom: 10px;
   }
+  .hero-content-two{
+    margin-bottom: 0;
+  }
 }
 @media only screen and (max-width:390px){
   .banner-left h4{
