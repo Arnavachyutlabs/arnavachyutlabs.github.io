@@ -12375,6 +12375,9 @@ margin-bottom: 30px !important;
   .banner-icons{
     width:auto;
   }
+  .banner-text-main span{
+    margin-bottom: 20px;
+  }
 }
 @media only screen and (max-width:390px){
   .banner-left h4{
