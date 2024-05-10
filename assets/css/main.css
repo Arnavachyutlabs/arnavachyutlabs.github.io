@@ -12381,6 +12381,9 @@ margin-bottom: 30px;
   .hero-content-two{
     margin-bottom: 0;
   }
+  .tj-hero-section-two{
+    padding-top:180px;
+  }
 }
 @media only screen and (max-width:390px){
   .banner-left h4{
