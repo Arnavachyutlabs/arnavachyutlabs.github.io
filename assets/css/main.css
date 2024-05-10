@@ -12268,7 +12268,7 @@ margin-left: auto;
 margin-right: auto;
 padding: 2px 5px;
 border-radius: 5px;
-margin-bottom: 30px !important;
+margin-bottom: 30px;
 }
 .banner-left h4{
   font-size: 11rem;
@@ -12376,7 +12376,7 @@ margin-bottom: 30px !important;
     width:auto;
   }
   .banner-text-main span{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
 @media only screen and (max-width:390px){
