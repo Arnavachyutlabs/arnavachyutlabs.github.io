@@ -2154,26 +2154,16 @@ START: Theme Header CSS
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 35px;
+  gap:0 !important;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
-  .info-right-item {
-    gap: 15px;
-  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .info-right-item {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: end;
-  }
-}
-@media (max-width: 575px) {
-  .info-right-item {
-    gap: 10px;
   }
 }
 .info-right-item .info-navbar ul {
@@ -2446,7 +2436,6 @@ START: Theme Header CSS
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -4919,29 +4908,6 @@ START: Theme Counter CSS
   background: var(--tj-color-theme-secondary);
   padding: 60px 0;
 }
-
-.fun-fact-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 80px;
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
-  .fun-fact-area {
-    gap: 50px;
-  }
-}
-@media (max-width: 575px) {
-  .fun-fact-area {
-    gap: 20px;
-  }
-}
-
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 575px) {
   .counter-wrapper {
     margin-top: 50px;
@@ -12303,6 +12269,10 @@ margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
 }
+.quote-btn .tj-primary-btn{
+  border-radius: 5px;
+  padding:15px 20px;
+}
 
 /* Banner Responsive*/
 @media only screen and (min-width: 1200px) and (max-width:1400px) {
@@ -12406,6 +12376,11 @@ margin-bottom: 30px;
   }
   .hero-content-two .tj-sec-heading .sub-title{
     font-size: 14px;
+  }
+}
+@media only screen and (min-width:992px) {
+  .header-2 .tj-top-content-area{
+    gap:15px;
   }
 }
 /* !END: Breadcrumb CSS *//*# sourceMappingURL=main.css.map */
