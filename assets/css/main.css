@@ -12308,6 +12308,7 @@ margin-bottom: 30px;
   width: fit-content;
   border: 2px solid var(--tj-color-theme-primary);
   border-radius: 50px;
+  transition: 0.3s ease;
 }
 .solar-panel-retailer .icon img{
   padding: 20px;
@@ -12425,4 +12426,11 @@ margin-bottom: 30px;
 }
 .about-residential-img img{
   border-bottom-right-radius: 15px;
+}
+.solar-panel-inner-box:hover .icon{
+  background-color: var(--tj-color-theme-primary);
+  transition: 0.3s ease;
+}
+.solar-panel-inner-box:hover .icon img{
+  filter:brightness(0) invert(1);
 }
