@@ -12286,6 +12286,9 @@ margin-bottom: 30px;
     gap:15px;
   }
 }
+.solar-panel-retailer{
+  padding-bottom: 150px;
+}
 .solar-panel-retailer .tj-sec-heading-three{
   max-width: 575px;
   width: 100%;
@@ -12344,7 +12347,6 @@ margin-bottom: 30px;
   border-radius: 20px;
 }
 .cta-box{
-  margin-top: 120px;
   margin-bottom: 70px;
   padding: 70px;
   position: relative;
@@ -12376,6 +12378,9 @@ margin-bottom: 30px;
   .about-cta .tj-sec-heading-three .title{
     font-size: 45px;
   }
+}
+.about-cta{
+  padding-bottom: 80px;
 }
 .tj-menu-area ul li > .sub-menu{
   background-color: #042f4b;
