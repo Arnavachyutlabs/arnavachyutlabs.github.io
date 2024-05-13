@@ -10958,7 +10958,7 @@ START: Theme Contact CSS
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tj-contact-section-two {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
   }
   .tj-contact-section-two .contact-bottom-shape {
     bottom: -5px;
@@ -11403,7 +11403,7 @@ START: Theme Footer CSS
 }
 
 .footer-top-area {
-  padding-top: 120px;
+  padding-top: 140px;
   padding-bottom: 10px;
   border-bottom: 2px solid rgba(255, 255, 255, 0.15);
   position: relative;
