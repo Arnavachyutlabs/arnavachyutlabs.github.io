@@ -11409,11 +11409,6 @@ START: Theme Footer CSS
   position: relative;
   z-index: 3;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .footer-top-area {
-    padding-top: 80px;
-  }
-}
 
 .footer-widget {
   margin-bottom: 50px;
@@ -12384,5 +12379,31 @@ margin-bottom: 30px;
 }
 .tj-menu-area ul li > .sub-menu{
   background-color: #042f4b;
+}
+.footer-contact-upper i{
+  background-color: white;
+  color: var(--tj-color-theme-primary);
+  padding: 15px;
+  border-radius: 50px;
+}
+.footer-contact-upper a{
+  font-size: 30px;
+  color:white;
+  font-weight: 900;
+}
+.footer-upper-box{
+  padding: 50px;
+  border-radius: 30px;
+  background-blend-mode: multiply;
+  background-color: #5122087d;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.footer-upper{
+  position: relative;
+  z-index: 4;
+  margin-bottom: -100px;
+  margin-top: -100px;
 }
 /* !END: Breadcrumb CSS *//*# sourceMappingURL=main.css.map */
