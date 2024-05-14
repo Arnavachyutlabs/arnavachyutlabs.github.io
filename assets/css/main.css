@@ -12408,11 +12408,14 @@ margin-bottom: 30px;
 .footer-upper-box{
   padding: 50px;
   border-radius: 30px;
-  background-blend-mode: multiply;
-  background-color: #5122087d;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.certifi-logo img{
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
 }
 .footer-upper{
   position: relative;
