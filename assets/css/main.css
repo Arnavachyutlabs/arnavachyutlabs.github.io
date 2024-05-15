@@ -12425,7 +12425,6 @@ margin-bottom: 30px;
 }
 .about-residential-solar{
   padding-top: 120px;
-  padding-bottom: 120px;
 }
 .solar-panel-inner-box:hover .icon{
   background-color: var(--tj-color-theme-primary);
@@ -12498,4 +12497,8 @@ margin-bottom: 30px;
   background: var(--tj-color-secondary);
   z-index: -1;
   clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%);
+}
+.company-overview{
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
