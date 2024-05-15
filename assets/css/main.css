@@ -12513,7 +12513,7 @@ margin-bottom: 30px;
   width: fit-content;
   padding: 15px;
   outline: 3px solid var(--tj-color-theme-primary);
-  border-radius: 50px;
+  border-radius: 100px;
   outline-offset: 5px;
   transition: ease 0.3s;
 }
