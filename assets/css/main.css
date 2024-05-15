@@ -12427,13 +12427,75 @@ margin-bottom: 30px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.about-residential-img img{
-  border-bottom-right-radius: 15px;
-}
 .solar-panel-inner-box:hover .icon{
   background-color: var(--tj-color-theme-primary);
   transition: 0.3s ease;
 }
 .solar-panel-inner-box:hover .icon img{
   filter:brightness(0) invert(1);
+}
+.about-residential-solar .residential-block-left .residential-img{
+  position: relative;
+}
+.about-residential-solar .residential-block-left .residential-img img{
+  border-top-right-radius: 200px;
+}
+.about-residential-solar .residential-block-left .residential-img:before{
+  position: absolute;
+    left: -50px;
+    top: 40px;
+    width: 200px;
+    height: 40%;
+    content: "";
+    background: var(--tj-color-theme-primary);
+    z-index: -1;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 12% 100%);
+}
+@media (max-width: 991px) {
+  .about-residential-solar .residential-block-left .residential-img:before , .about-residential-solar .residential-block-left:after {
+      left: 0 !important;
+      height: 35% !important;
+  }
+}
+@media (max-width: 991px) {
+  .about-residential-solar .residential-block-left .residential-img {
+    padding-left: 30px;
+  }
+}
+@media (max-width: 991px) {
+  .about-residential-solar .residential-block-left .residential-img {
+    padding-left: 30px;
+  }
+}
+.about-residential-solar .residential-block-left{
+  position: relative;
+}
+.about-residential-solar .residential-block-left .residential-img-inner{
+  position: absolute;
+    right: 0;
+    top: 0;
+}
+.about-residential-solar .residential-block-left .residential-img-inner img{
+  border-radius: 100px;
+}
+.about-residential-solar .residential-block-left .residential-img-inner:after{
+  position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    border: 10px solid rgba(255, 255, 255, 0.25);
+    border-radius: 50%;
+}
+.about-residential-solar .residential-block-left:after{
+  position: absolute;
+  left: -50px;
+  bottom: 40px;
+  width: 200px;
+  height: 40%;
+  content: "";
+  background: var(--tj-color-secondary);
+  z-index: -1;
+  clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%);
 }
