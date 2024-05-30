@@ -12508,7 +12508,7 @@ margin-bottom: 30px;
   border-radius: 20px;
   transition: ease 0.3s;
 }
-.company-overview .points-box .icon {
+.company-overview .points-box .icon ,.residential-wcu-box .icon {
   border: 3px solid var(--tj-color-theme-primary);
   width: fit-content;
   padding: 15px;
@@ -12531,3 +12531,40 @@ margin-bottom: 30px;
 .residential-solar.breadcrumb-wrapper{
   background-position-y: 1px;
 } 
+.residential-section{
+  padding-bottom: 180px;
+}
+.nav-buttons{
+  position: relative;
+}
+.nav-buttons .swiper-button-prev{
+  color: white;
+  background-color: var(--tj-color-theme-primary);
+  border-radius: 50px;
+  height: 50px;
+  width:50px;
+}
+.nav-buttons .swiper-button-prev:after , .nav-buttons .swiper-button-next:after{
+  font-size: 25px;
+}
+.nav-buttons .swiper-button-next{
+  color: white;
+  background-color: var(--tj-color-theme-primary);
+  border-radius: 50px;
+  height: 50px;
+  width:50px;
+}
+.residential-wcu-box{
+  padding: 40px;
+  background-color: white;
+  border-radius: 20px;
+  filter: grayscale(1) brightness(0.7);
+  transition: ease 1s;
+  border: 5px solid var(--tj-color-theme-primary);
+}
+.swiper-slide-active .residential-wcu-box{
+  filter: grayscale(0);
+  transition: ease 1s;
+  background-color: white;
+  border: 5px solid var(--tj-color-theme-primary);
+}

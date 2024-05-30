@@ -486,7 +486,21 @@
       disableOnInteraction: false
     },
 });
-
+//Residential-Slider
+var testislider = new Swiper(".residential-slider", {
+   slidesPerView:1.5,
+   spaceBetween: 30,
+   loop: true,
+   speed: 1000,
+   navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+   autoplay: {
+      delay: 2500,
+      disableOnInteraction: true
+    },
+});
 //blog-slider
 var blogswipe = new Swiper(".blogswiper", {
    slidesPerView: 3,
