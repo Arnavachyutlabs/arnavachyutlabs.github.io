@@ -12584,7 +12584,7 @@ margin-bottom: 30px;
     float:right !important;
   }
 }
-@media (max-width: 512px) {
+@media (max-width: 767px) {
   .points-box {
       display: block;
   }
