@@ -500,6 +500,29 @@ var testislider = new Swiper(".residential-slider", {
       delay: 2500,
       disableOnInteraction: true
     },
+    breakpoints: {
+      320: {
+         slidesPerView: 1,
+         spaceBetween: 30,
+      },
+      576: {
+         slidesPerView: 1,
+         spaceBetween: 50,
+      },
+      640: {
+         slidesPerView: 1,
+      },
+      768: {
+         slidesPerView: 1.5,
+         spaceBetween: 50,
+      },
+      992: {
+         slidesPerView: 2,
+      },
+      1024: {
+         slidesPerView: 1.5,
+      },
+   },
 });
 //blog-slider
 var blogswipe = new Swiper(".blogswiper", {
