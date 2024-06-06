@@ -12634,3 +12634,45 @@ margin-bottom: 20px;
   bottom: -7px;
   left: 0;
 }
+.intro {
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+.intro .title{
+  font-size: 4rem;
+}
+#horizontal-scoll {
+  padding: 200px 0;
+}
+.horizontal-scoll-wrapper {
+  overflow: hidden;
+  height: 525px;
+}
+.horizontal {
+  display: flex;
+  height: 100%;
+}
+.horizontal > div {
+  display: flex;
+  flex-shrink: 0;
+  padding: 0 5px;
+}
+.horizontal > div:first-child {
+  padding: 0 5px 0 15px;
+}
+.horizontal > div:last-child {
+  padding: 0 15px 0 5px;
+}
+.horizontal .card {
+  align-items: stretch;
+  width: 540px;
+  padding: 25px 35px;
+  background: #ffffff;
+  border-radius: 38px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  margin-right: 20px;
+}
+.horizontal .card p{
+  color: var(--tj-color-text-body);
+}
