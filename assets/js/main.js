@@ -571,12 +571,13 @@
     x: () => horizontalSection.scrollWidth * -1,
     xPercent: 100,
     scrollTrigger: {
-      trigger: ".start-point",
-      start: "top 150px",
+      trigger: ".card h4",
+      start: "center center",
       end: "+=2000px",
       pin: "#horizontal-scoll",
       scrub: 1,
       invalidateOnRefresh: true,
     },
   });
+  
 })(jQuery);

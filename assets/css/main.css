@@ -12665,7 +12665,6 @@ margin-bottom: 20px;
   padding: 0 15px 0 5px;
 }
 .horizontal .card {
-  align-items: stretch;
   width: 540px;
   padding: 25px 35px;
   background: #ffffff;
@@ -12676,3 +12675,12 @@ margin-bottom: 20px;
 .horizontal .card p{
   color: var(--tj-color-text-body);
 }
+.card-img{
+  border: 2px solid var(--tj-color-theme-primary);
+  background-color: bisque;
+  border-radius: 50px;
+  height: 100px;
+  width:  100px;
+  padding: 15px;
+}
+/* solar-battcss */
