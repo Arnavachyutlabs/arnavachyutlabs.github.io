@@ -574,7 +574,6 @@
       trigger: ".start-point",
       start: "top 150px",
       end: "+=2000px",
-      markers: true,
       pin: "#horizontal-scoll",
       scrub: 1,
       invalidateOnRefresh: true,
