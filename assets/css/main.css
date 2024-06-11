@@ -15387,10 +15387,18 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 .wcu-solar-points .wcu-points-content {
   width: calc(100% - 80px);
 }
-
+@media only screen and (max-width: 767px) {
+  .wcu-solar-points .wcu-points-content {
+    width: 100%;
+  }
+  .wcu-solar-points .icon i {
+    transform: rotate(90deg);
+  }
+}
 .wcu-solar-points .icon i {
   width: 60px;
   height: 60px;
+  font-size: 30px;
   border-radius: 20px;
   background: var(--tj-color-theme-primary);
   color: white;
@@ -15399,6 +15407,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
   align-items: center;
   justify-content: center;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 .residential-wcu-box-content h3{
   font-size: 40px;
