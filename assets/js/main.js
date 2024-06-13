@@ -529,27 +529,6 @@
       },
     },
   });
-  //battery-slider
-  var blogswipe = new Swiper(".batteryswiper", {
-    slidesPerView: 1,
-    effect: "slide",
-    grabCursor: true,
-    spaceBetween: 10,
-    loop: true,
-    speed: 1000,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
-  });
   //blog-slider
   var blogswipe = new Swiper(".blogswiper", {
     slidesPerView: 3,
